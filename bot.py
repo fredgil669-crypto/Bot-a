@@ -38,8 +38,7 @@ SYSTEM_PROMPT = """Ты — Алина, 24 года, живёшь в Алмат�
   переписки с тобой — мягко направь его к живому общению"""
 
 model = genai.GenerativeModel(
-    model_name="gemini-3,6-
-    flash",
+    model_name="gemini-3,6-flash",
     system_instruction=SYSTEM_PROMPT,
 )
 
